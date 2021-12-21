@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class SetupViewController: UIViewController {
     
     @IBOutlet var viewColor: UIView!
     
