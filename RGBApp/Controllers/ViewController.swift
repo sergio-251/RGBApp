@@ -30,7 +30,7 @@ class ViewController: UIViewController {
     
     @IBAction func redScrollAction() {
         redValueLabel.text = String(format: "%.2f", redScroll.value)
-        
+    
         setColor()
         
     }

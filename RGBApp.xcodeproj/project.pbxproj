@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		B76CA639276915D400CEE7BC /* RGBAppV2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RGBAppV2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B76CA639276915D400CEE7BC /* RGBApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RGBApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B76CA63C276915D400CEE7BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B76CA63E276915D400CEE7BC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		B76CA640276915D400CEE7BC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -48,7 +48,7 @@
 		B76CA63A276915D400CEE7BC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B76CA639276915D400CEE7BC /* RGBAppV2.app */,
+				B76CA639276915D400CEE7BC /* RGBApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -102,9 +102,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B76CA638276915D400CEE7BC /* RGBAppV2 */ = {
+		B76CA638276915D400CEE7BC /* RGBApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B76CA64D276915D600CEE7BC /* Build configuration list for PBXNativeTarget "RGBAppV2" */;
+			buildConfigurationList = B76CA64D276915D600CEE7BC /* Build configuration list for PBXNativeTarget "RGBApp" */;
 			buildPhases = (
 				B76CA635276915D400CEE7BC /* Sources */,
 				B76CA636276915D400CEE7BC /* Frameworks */,
@@ -114,9 +114,9 @@
 			);
 			dependencies = (
 			);
-			name = RGBAppV2;
+			name = RGBApp;
 			productName = RGBApp;
-			productReference = B76CA639276915D400CEE7BC /* RGBAppV2.app */;
+			productReference = B76CA639276915D400CEE7BC /* RGBApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -134,7 +134,7 @@
 					};
 				};
 			};
-			buildConfigurationList = B76CA634276915D400CEE7BC /* Build configuration list for PBXProject "RGBAppV2" */;
+			buildConfigurationList = B76CA634276915D400CEE7BC /* Build configuration list for PBXProject "RGBApp" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -147,7 +147,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B76CA638276915D400CEE7BC /* RGBAppV2 */,
+				B76CA638276915D400CEE7BC /* RGBApp */,
 			);
 		};
 /* End PBXProject section */
@@ -373,7 +373,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B76CA634276915D400CEE7BC /* Build configuration list for PBXProject "RGBAppV2" */ = {
+		B76CA634276915D400CEE7BC /* Build configuration list for PBXProject "RGBApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B76CA64B276915D600CEE7BC /* Debug */,
@@ -382,7 +382,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B76CA64D276915D600CEE7BC /* Build configuration list for PBXNativeTarget "RGBAppV2" */ = {
+		B76CA64D276915D600CEE7BC /* Build configuration list for PBXNativeTarget "RGBApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B76CA64E276915D600CEE7BC /* Debug */,
