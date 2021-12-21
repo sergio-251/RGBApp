@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:">
+      location = "self:/Users/sergeyefimov/Desktop/XCode/RGBApp/RGBAppV2.xcodeproj">
    </FileRef>
 </Workspace>
