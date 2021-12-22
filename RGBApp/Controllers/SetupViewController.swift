@@ -98,7 +98,7 @@ extension SetupViewController {
     }
     
     private func validTextFieldValue(text: String, defaultColor: Float) -> Float {
-        if let number = Float(text) {
+        if let number = Float(text), number >= 0.0 && number <= 1.0 {
             return number
         }
         showAlert(title: "Wrong number format!", message: "Please, repeat number input")
