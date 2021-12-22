@@ -14,6 +14,7 @@
 		B76CA646276915D600CEE7BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B76CA645276915D600CEE7BC /* Assets.xcassets */; };
 		B76CA649276915D600CEE7BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B76CA647276915D600CEE7BC /* LaunchScreen.storyboard */; };
 		B7DA457F27720C45004958B4 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7DA457E27720C45004958B4 /* StartViewController.swift */; };
+		B7DA4581277220F3004958B4 /* rgbColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7DA4580277220F3004958B4 /* rgbColor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		B76CA648276915D600CEE7BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B76CA64A276915D600CEE7BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B7DA457E27720C45004958B4 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		B7DA4580277220F3004958B4 /* rgbColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rgbColor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 		B76CA63B276915D400CEE7BC /* RGBApp */ = {
 			isa = PBXGroup;
 			children = (
+				B7DA4582277220F7004958B4 /* Model */,
 				B7DA457D2771FD3F004958B4 /* Controllers */,
 				B7DA457C2771FD27004958B4 /* Storyboards */,
 				B7DA457B2771FD17004958B4 /* Resourses */,
@@ -100,6 +103,14 @@
 				B7DA457E27720C45004958B4 /* StartViewController.swift */,
 			);
 			path = Controllers;
+			sourceTree = "<group>";
+		};
+		B7DA4582277220F7004958B4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B7DA4580277220F3004958B4 /* rgbColor.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -173,6 +184,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7DA4581277220F3004958B4 /* rgbColor.swift in Sources */,
 				B76CA641276915D400CEE7BC /* SetupViewController.swift in Sources */,
 				B7DA457F27720C45004958B4 /* StartViewController.swift in Sources */,
 				B76CA63D276915D400CEE7BC /* AppDelegate.swift in Sources */,
